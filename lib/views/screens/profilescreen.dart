@@ -94,7 +94,7 @@ class _ProfileTabScreenState extends State<ProfileTabScreen> {
             children: [
               MaterialButton(
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
                           builder: (content) => const LoginScreen()));
